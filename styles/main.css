@@ -1,9 +1,10 @@
-html>
+<html>
   <head>
-    <title>My blog</title>
+    
   <body>
-      <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Quicksand" rel="stylesheet">
   <style>
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Quicksand" rel="stylesheet">
+  
   h1{
     font-family: Cabin Sketch, monospace;
     font-size: 50px;
