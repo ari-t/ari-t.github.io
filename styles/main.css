@@ -1,10 +1,7 @@
-<html>
-  <head>
-    
-  <body>
-  <style>
-  <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Quicksand" rel="stylesheet">
-  
+
+  @import"https://fonts.googleapis.com/css?family=Cabin+Sketch|Quicksand";
+
+
   h1{
     font-family: Cabin Sketch, monospace;
     font-size: 50px;
