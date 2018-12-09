@@ -30,6 +30,14 @@
     width: 30em;
   }
 
+  span{
+    font-family: Quicksand, sans-serif;
+    font-size: 22px;
+    text-align: justify;
+    margin: 0 auto;
+    width: 80%;
+  }
+
   ol{
     font-family: Quicksand, sans-serif;
     font-size: 22px;
