@@ -1,30 +1,46 @@
 <html>
   <head>
-    <title>My blog</title>
-  <body>
-      <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Quicksand" rel="stylesheet">
-  <style>
-  h1{
-    font-family: Cabin Sketch, monospace;
-    font-size: 50px;
-    background-color: #ffeaea;
-    text-align: center;
-    letter-spacing: 1.5px;
-    
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+  </head>
+    <body>
+   
+  <p><a href="/index.html">Home</a></p>
+  <div class="fullCard" id="thumbnail">
+      <div class="cardContent">
+        <div class="cardText">
+  
+      <h1 class="h1">
+            <a href="#"> Ari's EDA Blog
+            </a>
+    </h1> 
+    </div>
+    </div>
+  </div>
+ <div> </div>
+    <!-- Tab links -->
+    <div class="tab">
+      <button class="tablinks" onclick="thisTab(event, 'Technical Blog')">Technical Blog</button>
+      <button class="tablinks" onclick="thisTab(event, 'Cultural Blog')">Cultural Blog</button>
+      <button class="tablinks" onclick="thisTab(event, 'More About Me')">More About Me</button>
+    </div>
 
-  }
+    <!-- Tab content -->
+    <div id="Technical Blog" class="tabcontent">
+      <h2>Technical Blog</h2>
+      <p>Here you will find the technical aspects covered in my sprint journey</p>
+    </div>
 
-  h2{
-    font-family: Quicksand, sans-serif;
-    font-size: 35px;
-  }
+    <div id="Cultural Blog" class="tabcontent">
+      <h2>Cultural Blod</h2>
+      <p>Here, you'll find the reflections and exercises I used to enhance my soft skills.</p> 
+    </div>
 
-  p{
-    font-family: Quicksand, sans-serif;
-    font-size: 24px;
-    text-align: justify;
-    width: 80%;
-  }
+    <div id="About Me" class="tabcontent">
+      <h3>More About Me</h3>
+      <p>Here's what you didn't know</p>
+    </div>
+
   .fullCard {
     width: 500px;
     border: 5px solid;
@@ -66,31 +82,17 @@
   </div>
  <div> </div>
     <div><p class="p"> Kia ora!</p>
-    <span><p class="p"> Welcome to my fabulous little blog. Here, you'll find a collection of lessons and projects covered in the EDA syllabus. <br> <br> Nau mai haere mai!</span> </p>
-    </div>
-  
-    <div class="row">
-      <div class="column">
-        <a href="ari-t.github.io/Technical-Blog.html";>
-          <img src="https://scontent-frx5-1.cdninstagram.com/vp/12dfd5773542fd0604f2a02098178305/5C0F6AFB/t51.2885-15/e35/37186886_434384270396732_8733938531832954880_n.jpg"
-           alt="Technical Blog" style="width:300px;">
-          <h2>Technical Blog</h2>
-        </a>
-        <p>One day I'll look back on this technical blog and cringe, but for right now, I'm proud to say, here's where you'll find some of my best work. Enjoy.</p>
-      </div>
-      <div class="column">
-        <a href="ari-t.github.io/Lessons_and_Reflections.html">
-        <img src="http://blog.bypeterandpauls.com/wp-content/uploads/2018/01/cc213e5e3c72dcbc104b639558f1e0a4-instagram-flatlay-beauty-girly-instagram.jpg" alt="Core Blog" style="width:300px;">
-        <h2>Core/ Cultural Blog</h2>
-        </a>
-        <p style="width=30%"> Here are a few non-technical lessons and learnings I've picked up during my course with Devacademy.</p>
-      </div>
-      <div class="column">
-          <a href="ari-t.github.io/About-me.html">
-            <img src="gallery/selfie.jpg" alt="About Me" style="height:300px;">
-          <h2>About Moi</h2>
-      </a>
-      <p> Who am I? What's my "why"? What am I in to? <a href=ari-t.github.io/About-me.html>Click here</a> to find out more.</p>
+
+    <br>
+    <br>
+  <p>Kia ora and welcome! This little wee blog is dedicated to some of the key learnings and skills I've picked up on 
+    and aiming to master while here at EDA. I can't wait to share what I've got with you.
+    <br>
+    Thank you so much for joining me!
+    <br>
+    Xoxo
+  </p>
+ 
 </div>
     </div>
   </body>
